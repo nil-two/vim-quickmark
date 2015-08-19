@@ -13,7 +13,7 @@ endfunction
 
 function! quickmark#mark()
   let mark = s:get_mark_from_input()
-  if mark == 0
+  if type(mark) == type(0) && !mark
     return
   endif
   let path = expand('%:p')
@@ -22,7 +22,7 @@ endfunction
 
 function! quickmark#open_marked()
   let mark = s:get_mark_from_input()
-  if mark == 0
+  if type(mark) == type(0) && !mark
     return
   endif
   let path = getreg(mark)
