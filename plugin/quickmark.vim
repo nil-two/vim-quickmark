@@ -11,5 +11,7 @@ command! -bar QuickMark
 command! -bar QuickMarkOpen
 \ call quickmark#open_marked()
 
+nnoremap <silent> <Plug>(quickmark-mark) :<C-u>QuickMark<CR>
+
 let &cpo = s:save_cpo
 unlet s:save_cpo
