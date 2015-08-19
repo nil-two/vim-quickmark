@@ -8,6 +8,8 @@ set cpo&vim
 
 command! -bar QuickMark
 \ call quickmark#mark()
+command! -bar QuickMarkOpen
+\ call quickmark#open_marked()
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
