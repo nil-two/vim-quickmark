@@ -4,8 +4,11 @@ set cpo&vim
 function! s:get_mark_from_input()
   echon 'mark: '
   let mark = getchar()
-  let mark = (type(char) == type(0))? nr2char(char): char
-  return (mark =~ '^\a$')? char: 0
+  let mark = (type(mark) == type(0))? nr2char(mark): mark
+  if mark !~ '^\a$'
+    return 0
+  endif
+  return mark
 endfunction
 
 function! quickmark#mark()
