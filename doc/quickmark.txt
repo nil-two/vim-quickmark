@@ -1,0 +1,40 @@
+*quickmark.txt*	Open marked path at any time.
+
+Version: 0.1.0
+Author : kusabashira <kusabashira227@gmail.com>
+License: MIT License
+
+==============================================================================
+CONTENTS					*quickmark-contents*
+
+INTRODUCTION			|quickmark-introduction|
+INTERFACE			|quickmark-interface|
+  KEY MAPPINGS			  |quickmark-key-mappings|
+CHANGELOG			|quickmark-changelog|
+
+
+==============================================================================
+INTRODUCTION					*quickmark-introduction*
+
+*vim-quickmark* is a Vim plugin to provide an operator
+to open marked path at any time.
+
+Latest version:
+https://github.com/kusabashira/vim-quickmark
+
+
+==============================================================================
+INTERFACE					*quickmark-interface*
+
+------------------------------------------------------------------------------
+KEY MAPPINGS					*quickmark-key-mappings*
+
+<Plug>(quickmark-mark)				*<Plug>(quickmark-mark)*
+			Mark current path.
+
+<Plug>(quickmark-open)				*<Plug>(quickmark-mark)*
+			Open marked path.
+
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
