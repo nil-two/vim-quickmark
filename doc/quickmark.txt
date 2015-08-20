@@ -35,6 +35,9 @@ KEY MAPPINGS					*quickmark-key-mappings*
 <Plug>(quickmark-open)				*<Plug>(quickmark-mark)*
 			Open marked path.
 
+<Plug>(quickmark-tab)				*<Plug>(quickmark-mark)*
+			Open marked path with new tab.
+
 
 ==============================================================================
 vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl

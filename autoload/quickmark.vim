@@ -29,5 +29,14 @@ function! quickmark#open_marked()
   execute 'edit' path
 endfunction
 
+function! quickmark#open_marked_with_newtab()
+  let mark = s:get_mark_from_input()
+  if type(mark) == type(0) && !mark
+    return
+  endif
+  let path = getreg(mark)
+  execute 'tabnew' path
+endfunction
+
 let &cpo = s:save_cpo
 unlet s:save_cpo
