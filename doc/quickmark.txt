@@ -32,10 +32,10 @@ KEY MAPPINGS					*quickmark-key-mappings*
 <Plug>(quickmark-mark)				*<Plug>(quickmark-mark)*
 			Mark current path.
 
-<Plug>(quickmark-open)				*<Plug>(quickmark-mark)*
+<Plug>(quickmark-open)				*<Plug>(quickmark-open)*
 			Open marked path.
 
-<Plug>(quickmark-tab)				*<Plug>(quickmark-mark)*
+<Plug>(quickmark-tab)				*<Plug>(quickmark-tab)*
 			Open marked path with new tab.
 
 
