@@ -11,7 +11,7 @@ command! -bar QuickMark
 command! -bar QuickMarkOpen
 \ call quickmark#open_marked()
 command! -bar QuickMarkTab
-\ call quickmark#open_marked()
+\ call quickmark#open_marked_with_newtab()
 
 nnoremap <silent> <Plug>(quickmark-mark) :<C-u>QuickMark<CR>
 nnoremap <silent> <Plug>(quickmark-open) :<C-u>QuickMarkOpen<CR>
