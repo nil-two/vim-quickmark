@@ -1,7 +1,7 @@
 *quickmark.txt*	Open marked path at any time.
 
 Version: 0.1.0
-Author : kusabashira <kusabashira227@gmail.com>
+Author : nil2 <nil2@nil2.org>
 License: MIT License
 
 ==============================================================================
@@ -20,7 +20,7 @@ INTRODUCTION					*quickmark-introduction*
 to open marked path at any time.
 
 Latest version:
-https://github.com/kusabashira/vim-quickmark
+https://github.com/nil2nekoni/vim-quickmark
 
 
 ==============================================================================
