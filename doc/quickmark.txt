@@ -20,7 +20,7 @@ INTRODUCTION					*quickmark-introduction*
 to open marked path at any time.
 
 Latest version:
-https://github.com/nil2nekoni/vim-quickmark
+https://github.com/nil-two/vim-quickmark
 
 
 ==============================================================================
